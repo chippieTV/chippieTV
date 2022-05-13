@@ -10,11 +10,13 @@
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
+    "css": "turbo run css",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "prettier": "^2.6.2",
-    "turbo": "^1.2.9"
+    "turbo": "^1.2.9",
+    "typed-css-modules": "^0.7.2"
   },
   "engines": {
     "npm": ">=7.0.0",
