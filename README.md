@@ -1,77 +1,26 @@
-# Turborepo starter with pnpm
+# Background of this project
 
-This is an official starter turborepo.
+After nearly 20 years paying $20 a month for hosting because I was too lazy to remove old sites and contact clients to see what to do, I finally decided it was time to leave Mediatemple.
 
-## What's inside?
+Having changed a lot myself I was thinking I might just create a simple minimal site with the old content and let that be the end of it, saving myself $20 a month.
 
-This turborepo uses [pnpm](https://pnpm.io) as a packages manager. It includes the following packages/apps:
+As a front end developer trying to figure out what to use to build this minimal page I figured it might be good to just try some of the technologies I wanted to play with for a while.
 
-### Apps and Packages
+Since it is basically impossible to settle on one technology I thought maybe it could be something else.. A (probably soon to be deserted) playground.
 
-- `docs`: a [Next.js](https://nextjs.org) app
-- `web`: another [Next.js](https://nextjs.org) app
-- `ui`: a stub React component library shared by both `web` and `docs` applications
-- `eslint-config-custom`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `tsconfig`: `tsconfig.json`s used throughout the monorepo
+So the outline of this project is, try out a bunch of different technologies and somehow weave them into a single application.
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+To start this off I am trying out [TurboRepo](https://turborepo.org/). I tried [Nx](https://nx.dev) for another prototype at work and really liked it in theory but wanted a point of comparison. I'm not sure I'm settled on TurboRepo right now but for the beginning why not.
 
-### Utilities
+The other part of this is, what could a blog/website look like if the goal wasn't consistency but diversity? For that I think it might be interesting to try different tech on the same or similar content.
 
-This turborepo has some additional tools already setup for you:
+More concretely I think treating each experiment like a blog post, somthing like [literate coding](https://en.wikipedia.org/wiki/Literate_programming) where an experiment can just be something simple like a version of the page with different styles or fonts, maybe some controls for the user to adjust the layout, to more complete blog-like content writing up the experiment and any findings and opinions.
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+Ultimately I guess it's just a literal home page. A place to put my experiments and experiences. Connecting interests, hypertext like the web was meant to be. My own little slice of the metaverse. I may not be able to upload myself to the cloud but I can create something like it.
 
-## Setup
+Finally I suppose I don't expect this will last long. I'll probably make a couple of simple experiments and then leave it for another 10 years, but maybe it can be something different this time.. lets find out.
 
-This repository is used in the `npx create-turbo@latest` command, and selected when choosing which package manager you wish to use with your monorepo (pnpm).
 
-### Build
+James
 
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm run dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching (Beta) you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-pnpx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
-
-```
-pnpx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Pipelines](https://turborepo.org/docs/core-concepts/pipelines)
-- [Caching](https://turborepo.org/docs/core-concepts/caching)
-- [Remote Caching (Beta)](https://turborepo.org/docs/core-concepts/remote-caching)
-- [Scoped Tasks](https://turborepo.org/docs/core-concepts/scopes)
-- [Configuration Options](https://turborepo.org/docs/reference/configuration)
-- [CLI Usage](https://turborepo.org/docs/reference/command-line-reference)
+(During the longest work break in 9 years, I have 3 weeks off!)
