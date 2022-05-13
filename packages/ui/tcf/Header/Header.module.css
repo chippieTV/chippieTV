@@ -1,0 +1,25 @@
+.container {
+    height: 130px;
+    width: 100%;
+    background: #cccccc url("./midbanner.gif") repeat-x;
+    min-width: 740px;
+    position: relative;
+}
+
+.left {
+    background: url("./leftbanner.gif") no-repeat;
+    height: 105px;
+    width: 220px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.right {
+    background: url("./rightbanner.gif") no-repeat;
+    height: 105px;
+    width: 520px;
+    right: 0;
+    position: absolute;
+    top: 0;
+}
