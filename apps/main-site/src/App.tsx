@@ -1,24 +1,26 @@
-// import { useState } from 'react'
-// import logo from './logo.svg'
-import "./App.css";
-
 import Header from "ui/tcf/Header";
 
 import {
+  Heading as ProfileHeading,
   Profile as ProfileContents,
-  SkillsList,
   Summary as ProfileSummary
 } from "ui/contents/profile";
+import { ExampleStyledSkillsList as SkillsList } from "ui/contents/profile/Skills";
+
 
 const App = () => {
   return (
-    <div className="App">
+    <>
       <Header />
 
-      <ProfileContents />
-      <ProfileSummary />
-      <SkillsList />
-    </div>
+      <div style={{ padding: "16px" }}>
+        <ProfileHeading/>
+
+        <ProfileContents />
+        <ProfileSummary />
+        <SkillsList />
+      </div>
+    </>
   )
 }
 
