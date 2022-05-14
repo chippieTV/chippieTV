@@ -21,7 +21,7 @@ const Home: NextPage = () => {
       <div style={{ padding: "16px" }}>
         <ProfileHeading/>
         <ProfileContents />
-        <ProfileSummary />
+        {/* <ProfileSummary /> */}
         <SkillsList />
       </div>
     </>
