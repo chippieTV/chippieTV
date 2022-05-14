@@ -2,7 +2,11 @@
 
 const nextConfig = require('next-transpile-modules')(['ui']); // pass the modules you would like to see transpiled
 nextConfig.reactStrictMode = true;
-nextConfig.basePath = ".";
+
+// should fix the files
+// https://wallis.dev/blog/next-js-basepath-and-assetprefix
+nextConfig.basePath = "/chippieTV.github.io";
+nextConfig.assetPrefix = "/chippieTV.github.io/";
 
 // nextConfig.webpack = (config, { dev, isServer }) => {
 //     // Replace React with Preact only in client production build

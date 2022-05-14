@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@react-three/fiber": "^8.0.16",
-    "next": "12.1.6",
+    "next": "v12.1.7-canary.6",
     "next-transpile-modules": "^9.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
