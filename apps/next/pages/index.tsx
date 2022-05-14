@@ -12,9 +12,6 @@ import {
 } from "ui/contents/profile";
 import { ExampleStyledSkillsList as SkillsList } from "ui/contents/profile/Skills";
 
-
-
-
 const Home: NextPage = () => {
   return (
 
@@ -23,7 +20,6 @@ const Home: NextPage = () => {
 
       <div style={{ padding: "16px" }}>
         <ProfileHeading/>
-
         <ProfileContents />
         <ProfileSummary />
         <SkillsList />
