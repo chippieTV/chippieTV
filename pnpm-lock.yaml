@@ -46,6 +46,7 @@ importers:
       eslint-config-next: 12.1.6
       next: v12.1.7-canary.6
       next-transpile-modules: ^9.0.0
+      preact: ^10.7.2
       react: 18.1.0
       react-dom: 18.1.0
       three: ^0.140.2
@@ -55,7 +56,7 @@ importers:
     dependencies:
       '@react-three/fiber': 8.0.16_5vzz734aui5gu3jm6wlduec5ym
       next: 12.1.7-canary.6_ef5jwxihqo6n7gxfmzogljlgcm
-      next-transpile-modules: 9.0.0
+      preact: 10.7.2
       react: 18.1.0
       react-dom: 18.1.0_react@18.1.0
       three: 0.140.2
@@ -67,6 +68,7 @@ importers:
       '@types/three': 0.140.0
       eslint: 8.15.0
       eslint-config-next: 12.1.6_ghcdg5nocqg23x2bwnoaubqkuu
+      next-transpile-modules: 9.0.0
       tsconfig: link:../../packages/tsconfig
       typescript: 4.6.4
 
@@ -1155,7 +1157,7 @@ packages:
     dependencies:
       graceful-fs: 4.2.10
       tapable: 2.2.1
-    dev: false
+    dev: true
 
   /es-abstract/1.20.0:
     resolution: {integrity: sha512-URbD8tgRthKD3YcC39vbvSDrX23upXnPcnGAjQfgxXF5ID75YcENawc9ZX/9iTP9ptUyfCLIxTTuMYoRfiOVKA==}
@@ -1409,6 +1411,7 @@ packages:
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
     engines: {node: '>=6'}
+    dev: true
 
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=}
@@ -1957,7 +1960,7 @@ packages:
 
   /graceful-fs/4.2.10:
     resolution: {integrity: sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==}
-    dev: false
+    dev: true
 
   /has-ansi/2.0.0:
     resolution: {integrity: sha1-NPUEnOHs3ysGSa8+8k5F7TVBbZE=}
@@ -2280,7 +2283,7 @@ packages:
     dependencies:
       enhanced-resolve: 5.9.3
       escalade: 3.1.1
-    dev: false
+    dev: true
 
   /next/12.1.7-canary.6_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-ml/jlGZjCfHFcFYt6zrS+oGMj+iuK7GZ6ANR1YiHCHWlXu+HYxPXZiURZ0qloFoPyjn4Vj0HcZAzV8CKbXEAng==}
@@ -2540,6 +2543,10 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
+    dev: false
+
+  /preact/10.7.2:
+    resolution: {integrity: sha512-GLjn0I3r6ka+NvxJUppsVFqb4V0qDTEHT/QxHlidPuClGaxF/4AI2Qti4a0cv3XMh5n1+D3hLScW10LRIm5msQ==}
     dev: false
 
   /prelude-ls/1.2.1:
@@ -2876,7 +2883,7 @@ packages:
   /tapable/2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
-    dev: false
+    dev: true
 
   /text-table/0.2.0:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}

@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-three/fiber": "^8.0.16",
     "next": "v12.1.7-canary.6",
+    "preact": "^10.7.2",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "three": "^0.140.2",
