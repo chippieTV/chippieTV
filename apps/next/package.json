@@ -12,19 +12,19 @@
   "dependencies": {
     "@react-three/fiber": "^8.0.16",
     "next": "v12.1.7-canary.6",
-    "next-transpile-modules": "^9.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "three": "^0.140.2",
     "ui": "workspace:*"
-  },
-  "devDependencies": {
+},
+"devDependencies": {
     "@types/node": "17.0.33",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.4",
     "@types/three": "^0.140.0",
     "eslint": "8.15.0",
     "eslint-config-next": "12.1.6",
+    "next-transpile-modules": "^9.0.0",
     "tsconfig": "workspace:*",
     "typescript": "4.6.4"
   }
