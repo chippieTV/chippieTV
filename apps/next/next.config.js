@@ -5,8 +5,8 @@ const isProd = process.env.NODE_ENV === "production";
 const withTM = require('next-transpile-modules')(['ui']); // pass the modules you would like to see transpiled
 
 module.exports = withTM({
-    basePath: "/chippieTV.github.io",
-    assetPrefix: isProd ? "/chippieTV.github.io/" : "",
+    // basePath: "/chippieTV.github.io",
+    // assetPrefix: isProd ? "/chippieTV.github.io/" : "",
     reactStrictMode: true,
     webpack: (config, { dev, isServer }) => {
         // Replace React with Preact only in client production build
