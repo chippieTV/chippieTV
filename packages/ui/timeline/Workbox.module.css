@@ -1,0 +1,47 @@
+
+/* 
+ * workbox
+ */
+
+
+ #workbox {
+    display: none;
+    right: 20px;
+    width: 65%;
+    position: absolute;
+    overflow: hidden;
+}
+
+
+#workbox,
+.block div,
+.block {
+    -webkit-transition: margin;
+    -webkit-transition-duration: 300ms;
+}
+
+#workbox {
+    -webkit-transition: height;
+    -webkit-transition-duration: 300ms;
+}
+
+#workbox-container {
+    position: relative;
+}
+
+.workbox-client-name {
+    position: relative;
+    color: #000;
+    font-size: 18px;
+}
+
+.workbox-description-s {
+    position: relative;
+    color: #000;
+    font-size: 14px;
+}
+
+.workbox-description-l {
+    position: relative;
+    font-size: 14px;
+}
