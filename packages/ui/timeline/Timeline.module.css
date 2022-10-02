@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    float: left;
+}
+
+.container h2 {
+    width: 280px;
+}
+
+.showTimeline {
+    display: none;
+
+    font-size: 14px;
+    color: #999;
+    cursor: pointer;
+    margin-left: 12px;
+}
+
+.showTimeline:hover {
+    color: #555;
+}

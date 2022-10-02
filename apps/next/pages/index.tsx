@@ -4,7 +4,7 @@ import type { NextPage } from "next";
 // import styles from '../styles/Home.module.css'
 
 import Header from "ui/tcf/Header";
-import Timeline from "ui/timeline/TimelineContainer";
+import Timeline from "ui/timeline/Timeline";
 
 import {
   Heading as ProfileHeading,

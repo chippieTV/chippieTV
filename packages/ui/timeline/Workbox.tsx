@@ -7,7 +7,7 @@ interface Props {}
 export const Workbox: React.FC<Props> = (props) => {
   return (
 
-    <div id="workbox">
+    <div className={styles.workbox}>
         <div id="workbox-container" />
         <div className="white-fade" />
 

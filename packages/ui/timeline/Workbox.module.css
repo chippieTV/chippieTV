@@ -4,7 +4,7 @@
  */
 
 
- #workbox {
+ .workbox {
     display: none;
     right: 20px;
     width: 65%;
@@ -13,7 +13,7 @@
 }
 
 
-#workbox,
+.workbox,
 .block div,
 .block {
     -webkit-transition: margin;

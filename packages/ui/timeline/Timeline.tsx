@@ -42,8 +42,8 @@ export const TimelineContainer: React.FC<Props> = (props) => {
 	};
 
     return (
-        <div id="timeline-wrapper">
-            <h2>Work History{" "}<span id="show-timeline">&larr; expand timeline &rarr;</span></h2>
+        <div className={styles.container}>
+            <h2>Work History{" "}<span className={styles.showTimeline}>&larr; expand timeline &rarr;</span></h2>
 
             <Workbox />
 
