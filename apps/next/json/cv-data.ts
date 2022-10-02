@@ -1,4 +1,6 @@
-{
+import { CV } from "ui/timeline/validate";
+
+export const data: CV = {
 	"Config": {
 		"startDate": "Aug 1, 2002"
 	},
@@ -1022,14 +1024,14 @@
 					"project_id": "li-1",
 					"project_title": "Design mentoring",
 					"project_description_s": "Livity is a socially responsible agency exposing youths to design. I worked on some Live magazine page layouts with their trainees.",
-					"type": "graphic",
+					"type": "graphics",
 					"start": "Mar 6, 2006"
 				},
 				{
 					"project_id": "li-2",
 					"project_title": "Pitch work",
 					"project_description_s": "Graphics and presentation work",
-					"type": "graphic",
+					"type": "graphics",
 					"start": "Feb 26, 2008"
 				}
 			]

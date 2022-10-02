@@ -2,24 +2,24 @@ import * as styles from "./Timeline.module.css";
 
 import * as React from "react";
 
-import useSWR from "swr";
-
 import Blocks from "./Blocks";
 import Workbox from "./Workbox";
-import { CV, cvSchema } from "./validate";
+import { Client as ClientType, CV, cvSchema } from "./validate";
+import { data } from "../../../apps/next/json/cv-data";
 import Client from "./Client";
+import { string } from "zod";
 
 interface Props {}
 
 const fetcher = (url: string) => fetch(url).then(res => res.json()).then(data => JSON.parse(data));
 
 export const TimelineContainer: React.FC<Props> = (props) => {
-    const { data, error } = useSWR<CV>("/api/cv", fetcher);
+    // const { data, error } = useSWR<CV>("/api/cv", fetcher);
 
-    //Handle the error state
-    if (error) return <div>Failed to load</div>;
-    //Handle the loading state
-    if (!data) return <div>Loading...</div>;
+    // //Handle the error state
+    // if (error) return <div>Failed to load</div>;
+    // //Handle the loading state
+    // if (!data) return <div>Loading...</div>;
 
     if (!cvSchema.safeParse(data)) console.error("CV shape does not match");
 

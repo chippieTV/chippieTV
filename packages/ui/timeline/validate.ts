@@ -20,6 +20,7 @@ const projectSchema = z.object({
     project_id: z.string(),
     project_title: z.string(),
     project_description_s: z.string(),
+    project_description_l: z.optional(z.string()),
     start: z.string(), // date string like Oct 07, 2013 .. update to ISO?
     type: projectType,
     url: z.optional(z.string()),
